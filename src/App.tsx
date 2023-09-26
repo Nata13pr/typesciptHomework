@@ -5,6 +5,7 @@ import Counter from './components/Counter';
 import HookCounter from './components/HookCounter';
 import ColorPicker from './components/ColorPicker';
 import Form from './components/Form';
+import TodosView from './components/TodosView';
 
 
 
@@ -171,6 +172,7 @@ class App extends Component {
       {/* <HookCounter/> */}
       {/* <ColorPicker options={colorPicker}/> */}
       <Form onSubmit={(cred)=>console.log(cred)}/>
+      <TodosView/>
       {/* {this.state.showModal && <Clock/>}
       <button type='button' onClick={this.toggleModal}>Open timer</button> */}
 {/* <Tabs items={items} /> */}
