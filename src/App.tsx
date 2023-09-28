@@ -6,6 +6,7 @@ import HookCounter from './components/HookCounter';
 import ColorPicker from './components/ColorPicker';
 import Form from './components/Form';
 import TodosView from './components/TodosView';
+import Filter from './components/Filter';
 
 
 
